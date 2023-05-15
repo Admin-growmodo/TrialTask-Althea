@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- stylesheets -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="media-query.css" />
+      <!-- scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="h-5 sm:h-10 -mt-5 sm:-mt-10 divider"></div>
+      <!-- this section is for Play your favorite songs -->
+      <section class="text-center text-white px-5 sm:px-6 py-10 sm:py-14 lg:py-20 bg-section">
+         <div class="container max-w-6xl mx-auto">
+            <h2><strong>Play your favorite songs.</strong></h2>
+            <p class="leading-tight mt-2 sm:mt-3">You’ll have <strong>all the tools you need</strong> to make sure you never miss a note.</p>
+         </div>
+         <div class="flex flex-wrap lg:flex-nowrap items-center justify-center mt-4 sm:mt-6 lg:my-6">
+            <video class="lg:order-1 h-64 sm:h-96 rounded-xl cursor-pointer lazyloading" x-on:click="soundslice = true;" data-src="https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/someone-like-you2.mp4" type="video/mp4" autoplay="" loop="" playsinline="" muted="" src="https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/someone-like-you2.mp4"></video>
+            <div class="text-left w-full sm:w-auto mt-6 lg:mt-0 lg:pr-8">
+               <div class="flex mb-6 lg:my-6">
+                  <div class="w-10 sm:w-14 flex-grow-0"><img alt="point icon" src="https://www.musora.com/musora-cdn/image/https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/songs-icon.svg" class="h-6 sm:h-10"></div>
+                  <div class="flex-grow pl-4">
+                     <h5><strong>1000+ popular songs.</strong></h5>
+                     <p class="mt-1 sm:mt-2 text-sm">Get note-for-note song breakdowns for <br class="hidden sm:inline"> every style, era, and skill level. </p>
+                  </div>
+               </div>
+               <div class="flex mb-6 lg:my-6">
+                  <div class="w-10 sm:w-14 flex-grow-0"><img alt="point icon" src="https://www.musora.com/musora-cdn/image/https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/tempo-icons.svg" class="h-6 sm:h-10"></div>
+                  <div class="flex-grow pl-4">
+                     <h5><strong>Find the perfect tempo.</strong></h5>
+                     <p class="mt-1 sm:mt-2 text-sm">Slow down any section of a song <br class="hidden sm:inline">to make those tricky bars easier. </p>
+                  </div>
+               </div>
+               <div class="flex mb-6 lg:my-6">
+                  <div class="w-10 sm:w-14 flex-grow-0"><img alt="point icon" src="https://www.musora.com/musora-cdn/image/https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/loop-icons.svg" class="h-6 sm:h-10"></div>
+                  <div class="flex-grow pl-4">
+                     <h5><strong>Loop the hard parts.</strong></h5>
+                     <p class="mt-1 sm:mt-2 text-sm">Create practice loops to play-through <br class="hidden sm:inline"> those difficult parts over and over. </p>
+                  </div>
+               </div>
+               <div class="flex mb-6 lg:my-6">
+                  <div class="w-10 sm:w-14 flex-grow-0"><img alt="point icon" src="https://www.musora.com/musora-cdn/image/https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/timing-icons.svg" class="h-6 sm:h-10"></div>
+                  <div class="flex-grow pl-4">
+                     <h5><strong>Improve your timing.</strong></h5>
+                     <p class="mt-1 sm:mt-2 text-sm">Use the built-in-metronome – your new <br class="hidden sm:inline"> best friend for difficult rhythms. </p>
+                  </div>
+               </div>
+               <div class="flex mb-6 lg:my-6">
+                  <div class="w-10 sm:w-14 flex-grow-0"><img alt="point icon" src="https://www.musora.com/musora-cdn/image/https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/devices-icons.svg" class="h-6 sm:h-10"></div>
+                  <div class="flex-grow pl-4">
+                     <h5><strong>Take your songs anywhere.</strong></h5>
+                     <p class="mt-1 sm:mt-2 text-sm">Accessible on any device, or printable, <br class="hidden sm:inline"> so you can play any song, any time. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a href="/songs" class="sm:mx-1 mb-2 sm:mb-0 w-full sm:w-64 join outline text-pianote border-pianote smaller">SEE SONGS LIST <i class="fa fa-music" aria-hidden="true"></i></i></a>
+         <a class="sm:mx-1 w-full sm:w-64 join pianote smaller " href="">
+         START FOR FREE <i class="fas fa-arrow-right" aria-hidden="true"></i>
+         </a>
+         <p class="text-light-navy text-sm mt-5"><em>Songs included with Pianote+</em></p>
+      </section>
+   </body>
+</html>

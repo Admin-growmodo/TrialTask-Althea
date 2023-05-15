@@ -1,0 +1,113 @@
+ /*for big landscape tablets, laptops, and desktops */ 
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 36px;
+    }
+    .lg\:flex-nowrap {
+        flex-wrap: nowrap!important;
+    }
+    /* for spacings */
+    .lg\:order-1 {
+        order: 1!important;
+    }
+    .lg\:flex-nowrap {
+        flex-wrap: nowrap!important;
+    }
+    .lg\:my-6 {
+        margin-bottom: 1.5rem!important;
+        margin-top: 1.5rem!important;
+    }
+    .lg\:pr-8 {
+        padding-right: 2rem!important;
+    }
+    .lg\:mt-0 {
+        margin-top: 0!important;
+    }
+    .lg\:py-20 {
+        padding-bottom: 5rem!important;
+        padding-top: 5rem!important;
+    }
+}
+
+/*for tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width: 991px){
+    h2 {
+        font-size: 36px;
+    }
+    p, li {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+}
+
+/*for tablet, landscape iPad, lo-res laptops ands desktops */
+@media only screen and (min-width: 768px) {
+
+    h5 {
+        font-size: 18px;
+    }
+    .join.smaller.outline {
+        padding: 10px 28px 8px;
+        font-size: 18px;
+    }
+    .join.outline {
+        border-width: 2px;
+        padding: 11px 30px;
+    }
+    .join.smaller {
+        padding: 12px 30px 10px;
+        font-size: 18px;
+    }
+    .join {
+        font-size: 30px;
+    }
+}
+
+/*for portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media only screen and (min-width: 640px) {
+    /* for spacings */
+    .sm\:mt-3 {
+        margin-top: 0.75rem!important;
+    }
+    .sm\:mt-2 {
+        margin-top: 0.5rem!important;
+    }
+    .sm\:h-96 {
+        height: 24rem!important;
+    }
+    .sm\:mt-6 {
+        margin-top: 1.5rem!important;
+    }
+    .sm\:w-auto {
+        width: auto!important;
+    }
+    .sm\:py-14 {
+        padding-bottom: 3.5rem!important;
+        padding-top: 3.5rem!important;
+    }
+    .sm\:px-6 {
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+    }
+    .sm\:mx-1 {
+        margin-left: 0.25rem!important;
+        margin-right: 0.25rem!important;
+    }
+    .sm\:h-10 {
+        height: 2.5rem!important;
+    }
+    .sm\:w-14 {
+        width: 3.5rem!important;
+    }
+    .sm\:w-64 {
+        width: 16rem!important;
+    }
+    .sm\:mb-0 {
+        margin-bottom: 0!important;
+    }
+    .sm\:w-auto {
+        width: auto!important;
+    }
+}
